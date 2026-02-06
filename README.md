@@ -1,7 +1,7 @@
 # Assignment 4
 Implementation of KMeans and Silhouette Scoring
 
-# Assignment
+Note: I used code LLMs for nice formatting and commenting.
 
 ## Overview
 The goal of this assignment is to implement the k-means clustering algorithm and the silhouette scoring metric. 
@@ -69,19 +69,19 @@ scores = silhouette.score(labels)
 ## Tasks
 * Note: we will check that you can run your code on a medium-size dataset
 
-[ TODO ] Complete the KMeans class with your implementation of the algorithm
+[x] Complete the KMeans class with your implementation of the algorithm
 
-  [ ] complete the `fit` method  
-  [ ] complete the `predict` method  
-  [ ] complete the `get_error` method  
-  [ ] complete the `get_centroid` method  
+  [x] complete the `fit` method  
+  [x] complete the `predict` method  
+  [x] complete the `get_error` method  
+  [x] complete the `get_centroid` method  
 
-[ TODO ] Complete the Silhouette class with your implementation of the metric
-  [ ] complete the `score` method  
+  [x] Complete the Silhouette class with your implementation of the metric
+  [x] complete the `score` method  
 
-[ TODO ] Unit Testing  
-  [ ] KMeans Class  
-  [ ] Silhouette Class -- make sure to test against sklearn
+[x] Unit Testing  
+  [x] KMeans Class  
+  [x] Silhouette Class -- make sure to test against sklearn
 
 [ TODO ] Packaging  
   [ ] pip installable module  
